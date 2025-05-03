@@ -17,38 +17,6 @@ This project was developed as part of **Task 4: Prediction System Design** for a
 - **Chatbot**: Interactive chatbot that answers questions like "Who will win?" and "How many runs for [team]?".
 - **Visualizations**: Player trend plot showing performance over the last 3 matches.
 
-## Folder Structure
-ipl-frontend/
-├── ipl_prediction/           # Django backend
-│   ├── api/                  # Django app for API endpoints
-│   │   ├── migrations/       # Database migrations
-│   │   ├── init.py
-│   │   ├── admin.py
-│   │   ├── apps.py
-│   │   ├── models.py
-│   │   ├── tests.py
-│   │   ├── urls.py
-│   │   └── views.py          # Prediction logic (XGBoost models, LLM integration)
-│   ├── ipl_prediction/       # Django project settings
-│   │   ├── init.py
-│   │   ├── asgi.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   ├── static/               # Static files (e.g., player trend plot)
-│   ├── manage.py             # Django management script
-│   └── requirements.txt      # Python dependencies
-├── src/                      # React.js frontend source
-│   ├── App.js                # Main React component (UI, form, chatbot)
-│   ├── index.css             # Tailwind CSS styles
-│   ├── index.js
-│   └── ...                   # Other React files
-├── public/                   # Public assets
-│   ├── index.html
-│   └── ...
-├── package.json              # Frontend dependencies
-└── README.md                 # This file
-
 
 ## Prerequisites
 
